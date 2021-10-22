@@ -49,11 +49,16 @@ window.addEventListener('DOMContentLoaded', () => {
               seconds = Math.floor((t / 1000) % 60);
 
         return {
-            'total': t,
-            'days': days,
-            'hours': hours,
-            'minutes': minutes,
-            'seconds': seconds
+            t,
+            days,
+            hours,
+            minutes,
+            seconds
+            // 'total': t,
+            // 'days': days,
+            // 'hours': hours,
+            // 'minutes': minutes,
+            // 'seconds': seconds
         }
     }
 
