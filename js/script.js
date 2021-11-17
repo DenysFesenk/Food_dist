@@ -165,7 +165,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         render() {
             const element = document.createElement('div');
-            
+
             if(this.classes.length === 0){
                 this.element = 'menu__item';
                 element.classList.add(this.element);
