@@ -33,25 +33,66 @@
 //     console.log('Finally')
 // });
 
-const test = time => {
-    return new Promise(resolve => {
-        setTimeout(() => resolve(), test)
-    })
-}
+
+// showSlides(slideIndex);
+
+    // if(slides.length < 10) {
+    //     total.textContent = `0${slides.length}`
+    // } else {
+    //     total.textContent = slides.length
+    // }
+
+    // function showSlides(n){
+    //     if (n > slides.length) {
+    //         slideIndex = 1;
+    //     }
+    //     if (n < 1) {
+    //         slideIndex = slides.length;
+    //     }
+    //     slides.forEach(item => item.style.display = 'none');
+    //     slides[slideIndex - 1].style.display = 'block';
+
+    //     if(slides.length < 10) {
+    //         current.textContent = `0${slideIndex}`;
+    //     } else {
+    //         current.textContent = slideIndex;
+    //     }
+    // }
+
+    // function plusSlides(n) {
+    //     showSlides(slideIndex +=  n);
+    // };
+
+    // prev.addEventListener('click', () => {
+    //     plusSlides(-1);
+    // });
+
+    // next.addEventListener('click', () => {
+    //     plusSlides(1);
+    // });
+
+
+
+
+// const test = time => {
+//     return new Promise(resolve => {
+//         setTimeout(() => resolve(), test)
+//     })
+// }
 
 // test(1000).then(() => console.log('1000 ms'));
 // test(2000).then(() => console.log('2000 ms'));
 
-Promise.all([test(1000), test(2000)]).then(() => {
-    console.log('All');
-});
+// Promise.all([test(1000), test(2000)]).then(() => {
+//     console.log('All');
+// });
 
 // Promise.race([test(1000), test(2000)]).then(() => {
 //     console.log('All');
 // });
 
-const ans = prompt('Введите ваше имя');
-const reg = /n/;
+// const ans = prompt('Введите ваше имя');
+// const reg = /n/;
 // i
 // g
 // m
