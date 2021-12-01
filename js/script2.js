@@ -49,3 +49,11 @@ Promise.all([test(1000), test(2000)]).then(() => {
 // Promise.race([test(1000), test(2000)]).then(() => {
 //     console.log('All');
 // });
+
+const ans = prompt('Введите ваше имя');
+const reg = /n/;
+// i
+// g
+// m
+
+console.log(ans.search(reg));
