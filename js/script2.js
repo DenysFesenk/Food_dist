@@ -97,4 +97,4 @@
 // g
 // m
 
-console.log(ans.search(reg));
+// console.log(ans.search(reg));
