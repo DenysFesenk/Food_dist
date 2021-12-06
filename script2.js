@@ -98,3 +98,10 @@
 // m
 
 // console.log(ans.search(reg));
+
+// const myModule = require('./main');
+
+// const myModuleInstance = new myModule();
+
+// myModuleInstance.hello();
+// myModuleInstance.goodbye();
